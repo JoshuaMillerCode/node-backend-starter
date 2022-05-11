@@ -1,0 +1,19 @@
+{
+  "name": "node-backend-starter",
+  "version": "1.0.2",
+  "description": "Basic backend starter kit for beginners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consola": "^2.15.3",
+    "inquirer": "^8.2.0"
+  },
+  "bin": {
+    "backend-init": "./index.js"
+  }
+}
