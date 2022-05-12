@@ -1,6 +1,6 @@
 {
   "name": "node-backend-starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Basic backend starter kit for beginners",
   "main": "index.js",
   "scripts": {
