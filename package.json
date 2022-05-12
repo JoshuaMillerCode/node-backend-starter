@@ -15,5 +15,9 @@
   },
   "bin": {
     "backend-init": "./index.js"
+  },
+  "registry": {
+    "type": "git",
+    "url": "https://github.com/JoshuaMillerCode/node-backend-starter"
   }
 }
