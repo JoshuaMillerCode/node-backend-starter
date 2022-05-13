@@ -50,4 +50,9 @@ function dynamicFiles(response, projectName){
     const dotenv = content.dotenvFile(response)
 
     fs.writeFileSync(`${CURR_DIR}/${projectName}/.env`, dotenv)
+
+    //Writing .gitignore files
+    const gitIgnore = content.gitIgnoreFile()
+
+    fs.writeFileSync(`${CURR_DIR}/${projectName}/.gitignore`, gitIgnore)
 }
